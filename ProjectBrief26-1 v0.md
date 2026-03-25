@@ -24,7 +24,7 @@
 |20|[POKI](#team-20)| 예비, 초기 창업자를 위한 멀티모달 AI 기반 IR 피칭 준비 플랫폼 
 |21|[봉원아사랑해](#team-21)| 태아보험 특약 선택과 보장 범위 이해를 위한 산모 맞춤형 RAG 기반 보험 분석 서비스
 |22|[NOVA](#team-22)| 지속적인 혈당 관리가 어려운 임신성 당뇨 산모를 위한 YOLO 활용한 식단 자동 기록 및 RAG 기반 식단 코칭 서비스
-|23|[Synapse](#team-23)| Cost-Aware Predictive Dynamic Partitioning for Multi-GPU Knowledge Distillation Pipelines
+|23|[Synapse](#team-23)| ETA 기반 의사결정을 통한 다중 GPU 지식 증류 파이프라인에서의 장애 대응 기법
 |24|[이루리](#team-24)| 대학(원)생의 불안정한 재정습관 개선과 분산된 장학금 및 복지 정보 통합 추천을 위한 AI기반 맞춤형 스마트 금융케어 서비스
 |25|[return 0;](#team-25)| 위치 기반 서비스(LBS)와 챗봇(GPT)기반 상담 기능을 활용하여 반려인에게 맞춤형 여행 정보를 제공하는 반려동물 동반 여행 애플리케이션
 |26|[TriAI](#team-26)| 지진파형–GNSS 멀티모달 딥러닝을 통한 PGV 추정 및 공간 진도 시각화
@@ -377,15 +377,15 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-23
-| (1) 과제명 |  Cost-Aware Predictive Dynamic Partitioning for Multi-GPU Knowledge Distillation Pipelines |
+| (1) 과제명 |  ETA 기반 의사결정을 통한 다중 GPU 지식 증류 파이프라인에서의 장애 대응 기법  |
 |:---  |---  |
 | (2) 팀 번호/이름 | 23-Synapse |
-| (3) 구성원 | 문원정(2276106): 리더,*역할,...* <br> 김현영(2371023): 팀원,*역할,....* <br> 최지희(2276337): 팀원,*역할,....* |
+| (3) 구성원 | 문원정(2276106): 리더, 연구 방향 정리 및 팀 프로젝트 관리, TSPIPE 기반 failover-aware pipeline training 시스템 총괄 <br> 김현영(2371023): 팀원, dynamic programming 기반 pipeline 재분할 및 정책 알고리즘 개발 <br> 최지희(2276337): 팀원, KD pipeline profiling 데이터 관리 및 성능 모델링 담당 |
 | (4) 지도교수 | 심재형 교수 |
 | (5) 트랙  | 연구 |
 | (6) 과제 키워드 | Knowledge Distillation, Model Partitioning, Scheduling, Multi-GPU Training, Distributed Optimization |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (7) 과제 내용 요약 | 본 연구는 TSPIPE 기반 다중 GPU 지식 증류 파이프라인 학습에서 runtime 중 발생하는 soft/hard failure에 적응적으로 <br> 대응하기 위해 상태 모니터링, ETA 기반 정책 선택, checkpoint 재시작을 결합한 failover-aware training framework를 <br> 제안하고, 이를 통해 학습 중단 시간과 전체 학습 완료 시간을 줄이며 학습 안정성과 자원 활용 효율을 <br> 향상시키는 것을 목표로 함.  |
+| (8) 주요 Link | https://github.com/wonjungm/Synapse |
  
 <br>
  
